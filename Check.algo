@@ -16,7 +16,6 @@ BEGIN
             Vcompt=Vcompt+1;
         END_IF
     UNTIL (C<>".")
-   END_WHILE
     whrite("number of Caracter is:",CharCompt);
     whrite("number of Word is:",CharCompt);
     whrite("number of vowels is:",CharCompt);
