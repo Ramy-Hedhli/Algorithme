@@ -17,6 +17,6 @@ BEGIN
         END_IF
     UNTIL (C<>".")
     whrite("number of Caracter is:",CharCompt);
-    whrite("number of Word is:",CharCompt);
-    whrite("number of vowels is:",CharCompt);
+    whrite("number of Word is:",MotCompt);
+    whrite("number of vowels is:",VCompt);
 END
