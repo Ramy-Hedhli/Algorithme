@@ -1,0 +1,23 @@
+ALGORITHM checkpoint
+VAR
+    CharCompt,MotCompt,Vcompt : INTEGER;
+    C : CHAR;
+BEGIN
+    CharCompt,Vcompt:=0;
+    MotCompt:=1;
+    REPEAT
+        whrite("Enter Your Parag",C);
+        read(C);  
+        CharCompt:=CharCompt+1;  
+        IF (C=" ") THEN
+            MotCompt:=MotCompt+1;
+        END_IF
+        IF(C="a" or C="e" or C="i" or C="o" or C="u")THEN 
+            Vcompt=Vcompt+1;
+        END_IF
+    UNTIL (C<>".")
+   END_WHILE
+    whrite("number of Caracter is:",CharCompt);
+    whrite("number of Word is:",CharCompt);
+    whrite("number of vowels is:",CharCompt);
+END
